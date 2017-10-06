@@ -1,0 +1,25 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+    {% if site.twitter.username %}
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true" style="margin-right: 5px;"></i>Twitter</a></li>
+    {% endif %}
+    {% if site.facebook.username %}
+      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true" style="margin-right: 5px;"></i>Facebook</a></li>
+    {% endif %}
+    {% if site.slack.joinlink %}
+      <li><a href="{{ site.slack.joinlink }}"><i class="fa fa-fw fa-slack" aria-hidden="true" style="margin-right: 5px;"></i>Slack</a></li>
+    {% endif %}
+    {% if site.github.repo %}
+      <li><a href="https://github.com/{{ site.github.repo }}"><i class="fa fa-fw fa-github" aria-hidden="true" style="margin-right: 5px;"></i>GitHub</a></li>
+    {% endif %}
+    {% if site.bitcointalk.topic %}
+      <li><a href="https://bitcointalk.org/index.php?topic={{ site.bitcointalk.topic }}"><i class="fa fa-fw fa-bitcoin" aria-hidden="true" style="margin-right: 5px;"></i>Bitcointalk</a></li>
+    {% endif %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true" style="margin-right: 5px;"></i>{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
