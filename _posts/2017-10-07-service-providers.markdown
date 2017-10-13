@@ -25,6 +25,8 @@ The following is an up-to-date list of service providers supporting the Wyvern c
 
 [BlockSucker][blocksucker]
 
+[MineBlocks][mineblocks]
+
 
 ### Wallets
 
@@ -37,4 +39,5 @@ The following is an up-to-date list of service providers supporting the Wyvern c
 [coinminers]:       https://pool.coin-miners.info/
 [cryptohubpool]:    https://cryptohub.online/pools/
 [blocksucker]:      https://blocksuckernation.com/
+[mineblocks]:       http://pool.mineblocks.co.uk/getting_started
 [desktopwallet]:    /tutorials/getting-started
