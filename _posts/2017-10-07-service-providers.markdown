@@ -35,7 +35,7 @@ The following is an up-to-date list of service providers supporting the Wyvern c
 
 [coinexchange]:     https://www.coinexchange.io/market/WYV/BTC
 [cryptohubmarket]:  https://cryptohub.online/market/WYV/
-[devpool]:          https://pool.projectwyvern.com
+[devpool]:          http://pool.projectwyvern.com
 [coinminers]:       https://pool.coin-miners.info/
 [cryptohubpool]:    https://cryptohub.online/pools/
 [blocksucker]:      https://blocksuckernation.com/
