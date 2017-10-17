@@ -9,9 +9,13 @@ categories:   Tutorials
 
 #### Windows / Mac OS X / Linux
 
-See [the repository][github] for instructions.
+##### Binary Releases
 
-Continuous-integration binaries will be provided ASAP.
+Find the latest release on the [Releases][releases] page of the official Wyvern Github repository.
+
+##### Building from Source
+
+See [the repository][github] for instructions if you wish to build Wyvern yourself.
 
 #### Docker
 
@@ -35,6 +39,7 @@ $ docker exec wyvern /root/wyvern/src/wyvernd getinfo
 
 An official faucet is soon-to-come. For now, the easiest way to acquire Wyvern is by mining some at a pool or buying some at an exchange - examine your options at [Service Providers][serviceproviders].
 
+[releases]:         https://github.com/protinam/wyvern/releases
 [github]:           https://github.com/protinam/wyvern
 [serviceproviders]: /general/service-providers/
 [docker]:           https://hub.docker.com/r/protinam/wyvern/
