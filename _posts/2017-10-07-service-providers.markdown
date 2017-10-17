@@ -33,6 +33,13 @@ The following is an up-to-date list of service providers supporting the Wyvern c
 <br />
 [Official Desktop Wallet][desktopwallet]
 
+### Block Explorers
+
+<br />
+[Chainz][chainz]
+
+[TheCryptoChat][thecryptochat]
+
 [coinexchange]:     https://www.coinexchange.io/market/WYV/BTC
 [cryptohubmarket]:  https://cryptohub.online/market/WYV/
 [devpool]:          http://pool.projectwyvern.com
@@ -41,3 +48,5 @@ The following is an up-to-date list of service providers supporting the Wyvern c
 [blocksucker]:      https://blocksuckernation.com/
 [mineblocks]:       http://pool.mineblocks.co.uk/getting_started
 [desktopwallet]:    /tutorials/getting-started
+[chainz]:           https://chainz.cryptoid.info/wyv/
+[thecryptochat]:    http://wyvern.thecryptochat.net/
