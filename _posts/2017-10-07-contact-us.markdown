@@ -55,6 +55,6 @@ ijpFjlrvxYv+vElYUPGoA/13LXDRgsEAvZZD4QhgGTzzyAW4ZbGaB6SwFl+w
 -----END PGP PUBLIC KEY BLOCK-----
 {% endhighlight %}
 
-[twitter]:  https://twitter.com/wyverncoin
+[twitter]:  https://twitter.com/wyvernexchange
 [facebook]: https://facebook.com/projectwyvern
 [protinam]: mailto:protinam@protonmail.ch
